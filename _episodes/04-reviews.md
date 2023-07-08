@@ -1,7 +1,7 @@
 ---
-title: "PR Templates"
-teaching: 0
-exercises: 0
+title: "Code Reviews"
+teaching: 10
+exercises: 5
 questions:
 - "Key question (FIXME)"
 objectives:

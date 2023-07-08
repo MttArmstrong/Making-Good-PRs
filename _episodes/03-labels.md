@@ -1,13 +1,16 @@
 ---
-title: "Labelling PRs"
-teaching: 5
-exercises: 5
+title: "Labels and Templates"
+teaching: 10
+exercises: 10
 questions:
 - "How do you assign labels to PRs?"
+- "How do you create PR templates?"
 objectives:
 - "Learn how to use labels for GitHub PRs."
+- "Learn how to create a PR template."
 keypoints:
 - "Labelling PRs can help with prioritization and organization."
+- "PR Templates can provide clear instructions for steps, expectations, and more."
 ---
 
 ## GitHub Labels
@@ -35,34 +38,31 @@ These labels can be viewed from the Issues and Pull Requests pages.
 
 ## Using Labels
 
-Now that the labels are created, they can be assigned to PRs.
-
 Labels can be applied from the main Pull requests page or within a single PR.
 
 From the main Pull requests page, simply checkmark the PR, hit the "Label"
 dropdown, select your preferred label(s), and click outside of the
 dropdown.
 
-![Apply Labels from the main Issues page]({{ page.root }}/fig/apply-labels-issue-page.png)
+![Apply Labels from the main PRs page]({{ page.root }}/fig/apply-labels-prs-page.png)
 
-To apply within a single issue, click on the issue to open it. Then you
+To apply within a single PR, click on the PR to open it. Then you
 will see the "Labels" option on the right-hand side.
-
-![Highlighted Labels option within a single issue]({{ page.root }}/fig/label-option-in-issue.png)
 
 Click on "Labels". A dropdown will appear in which you can select or deselect
 your preferred label(s).
 
-![Label dropdown within a single issue]({{ page.root }}/fig/label-dropdown-in-issue.png)
+![Label dropdown within a single issue]({{ page.root }}/fig/label-dropdown-in-pr.png)
 
 > ## Stick the Label
 >
-> Navigate to [our practice repository's issue page](#).
+> Navigate to your practice repository's PR page.
 > 
-> * Create a new issue entitled "[YOUR NAME]'s label issue"
-> * Add the `discussion` label
+> * Make another small change to your `README.md` and open a PR
+> * Add the `documentation` label
 >
 {:.challenge}
+
 
 
 {% include links.md %}
