@@ -5,13 +5,13 @@ exercises: 5
 questions:
 - "How do you open a PR?"
 - "How do you interact with a PR?"
-- "How do you close a PR?"
+- "How do you merge a PR?"
 objectives:
 - "Become familiar with basic actions on GitHub Pull Requests"
 keypoints:
 - "New PRs can be opened in a repository from a branch or a fork."
 - "Text on PRs use Markdown styling for formatting."
-- "A user can interact with PRs in multiple ways: commenting, mentioning others, linking to other issues and pull requests, and more."
+- "A user can interact with PRs in multiple ways: commenting, assigning reviewers, linking to other issues and pull requests, and more."
 ---
 
 ## Open a PR
@@ -48,6 +48,8 @@ new branch with the changes.
 GitHub will autopopulate a branch name for us. We can choose to keep it or
 change it.
 
+### Make a PR
+
 Once we click "Commit changes," the page will load the "Open a pull request"
 page with our commit message as the title.
 
@@ -63,9 +65,92 @@ To open the issue, click the "Create pull request" button.
 
 ![Newly opened PR with proposed changes]({{ page.root }}/fig/prs-new-pr-view.png)
 
+> ## Open a New PR
+>
+> Navigate to your practice repository.
+> 
+> * Make a change to your `README.md` file
+> * Commit the changes to a new branch
+> * Put a basic title and details
+> * Create the PR
+>
+{:.challenge}
+
 ## Interact with a PR
 
-## Close a PR
+There are many interactions available on an open PR.
+
+The most basic interaction is adding a comment. This is
+how you can interact with the PR author, the assignee, and others who
+have commented on or subscribed to the PR.
+
+Simply click in the comment box at the bottom of the PR, type whatever
+you'd like, and click "Comment."
+
+![Add a comment to a PR]({{ page.root }}/fig/add-pr-comment.png)
+
+You can also edit the information in the right-hand column.
+
+![Information block with reviewers, assignees, labels, projects]({{ page.root }}/fig/prs-right-hand-column.png)
+
+We will cover the following options:
+
+| Options | Purpose |
+| ------- | ------- |
+| Reviewers | Assign reviewer(s) to look over your proposed changes. |
+| Assignees | Add assignee(s) who are responsible for incorporating proposed changes. |
+| Labels | Assign label(s) to categorize the PR. |
+
+> ## Request a Review
+>
+> Navigate to your PR from the previous exercise.
+> 
+> * Add yourself as the `Assignee`
+> * Add your instructor as a `Reviewer`
+>
+{:.challenge}
+
+## Merge a PR
+
+We are done with these changes. We have completed the work on it, had our
+discussion, and now we are ready to merge the changes.
+
+> ## Wait, what about review?
+> Nobody reviewed our changes, so do we really want to merge? In a real-case
+> scenario, *no*! We will cover more about reviewing later, though, so we
+> are going to skip it for now.
+{:.callout}
+
+Merging a PR is quite simple - just click the "Merge pull request" button.
+
+![A simple merge with our exercise PR]({{ page.root }}/fig/merge-pr-no-review.png)
+
+The dropdown on the "Merge pull request" shows several options:
+
+![Merge PR dropdown with three options]({{ page.root }}/fig/merge-pr-options.png)
+
+We will not cover all of these options here, but read more about them in
+[GitHub's official documentation](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request#merging-a-pull-request).
+
+When you click the "Merge pull request" button, a new dialog box appears,
+prompting for the commit message. Once you have made the preferred edits,
+click "Confirm merge."
+
+![Confirm merge dialog box]({{ page.root }}/fig/confirm-merge-dialog.png)
+
+The changes have been incorporated back into the `main` branch.
+
+> ## Time to Merge
+>
+> Navigate to your PR from the previous exercises.
+> 
+> * Click "Merge pull request"
+> * Modify the merge message
+> * Merge!
+>
+{:.challenge}
+
+You now know the basic actions you can take on a GitHub Pull Request!
 
 {% include links.md %}
 
