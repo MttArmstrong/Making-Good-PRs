@@ -89,6 +89,16 @@ you'd like, and click "Comment."
 
 ![Add a comment to a PR]({{ page.root }}/fig/add-pr-comment.png)
 
+Another useful feature for GitHub is linking Issues and PRs. This is actually
+very simple. In the PR's description or in a comment, mention the relevant
+Issue using `#` and the Issue number.
+
+![Link a PR to an Issue]({{ page.root }}/fig/link-pr-to-issue.png)
+
+This will create a link to the Issue.
+
+![Link to the Issue]({{ page.root }}/fig/linked-issue.png)
+
 You can also edit the information in the right-hand column.
 
 ![Information block with reviewers, assignees, labels, projects]({{ page.root }}/fig/prs-right-hand-column.png)
@@ -107,6 +117,7 @@ We will cover the following options:
 > 
 > * Add yourself as the `Assignee`
 > * Add your instructor as a `Reviewer`
+> * Mention one of your open Issues
 >
 {:.challenge}
 
