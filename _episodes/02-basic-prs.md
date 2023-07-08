@@ -111,12 +111,11 @@ We will cover the following options:
 | Assignees | Add assignee(s) who are responsible for incorporating proposed changes. |
 | Labels | Assign label(s) to categorize the PR. |
 
-> ## Request a Review
+> ## Assignment Time
 >
 > Navigate to your PR from the previous exercise.
 > 
 > * Add yourself as the `Assignee`
-> * Add your instructor as a `Reviewer`
 > * Mention one of your open Issues
 >
 {:.challenge}
