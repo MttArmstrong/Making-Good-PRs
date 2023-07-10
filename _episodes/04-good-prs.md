@@ -68,6 +68,7 @@ so they know more about the suggested changes.
 > ## What, How, Why
 > Preemptively answer common questions in the description of your PR to
 > streamline the review process.
+{:.callout}
 
 {% include links.md %}
 
