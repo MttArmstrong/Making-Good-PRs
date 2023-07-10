@@ -1,6 +1,6 @@
 ---
 title: "Labels and Templates"
-teaching: 10
+teaching: 5
 exercises: 10
 questions:
 - "How do you assign labels to PRs?"
