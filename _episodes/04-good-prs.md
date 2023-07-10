@@ -10,7 +10,7 @@ objectives:
 keypoints:
 - "A pull request should contain _ONE_ cohesive change."
 - "A pull request should, ideally, be quickly reviewable."
-- "A pull request description should give an overview of what,how, and why something changed."
+- "A pull request description should give an overview of what, how, and why something changed."
 ---
 
 ## What makes a 'Good' Pull request?
