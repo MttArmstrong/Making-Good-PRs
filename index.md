@@ -18,6 +18,7 @@ reviews.
 > * Basic understanding of git
 > * git (installed locally)
 > * GitHub account
+> * Copy of [INTERSECT Day 2 Template](https://github.com/INTERSECT-training/intersect-training-day2)
 {: .prereq}
 
 {% include links.md %}
