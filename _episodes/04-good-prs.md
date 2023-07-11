@@ -28,7 +28,7 @@ module should be responsible to one, and only one, actor." This principle
 also applies for pull requests.
 
 When making changes and getting ready to submit a PR, the changes within that
-PR must all be related and, ideally, doing _one_ clear thing.
+PR should all be related and, ideally, doing _one_ clear thing.
 
 This will make it easier to review and to ensure that changes don't introduce
 new, seemingly "unrelated" bugs.
