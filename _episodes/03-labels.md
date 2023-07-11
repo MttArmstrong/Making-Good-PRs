@@ -34,7 +34,7 @@ From [GitHub's official documentation](https://docs.github.com/en/issues/using-l
 
 These labels can be viewed from the Issues and Pull Requests pages.
 
-![The PR page with the labels option highlighted]({{ page.root }}/fig/prs-labels.png)
+![The PR page with the labels option highlighted]({{ page.root }}/fig/prs-labels.png){:width="75%"}
 
 ## Using Labels
 
@@ -44,7 +44,7 @@ From the main Pull requests page, simply checkmark the PR, hit the "Label"
 dropdown, select your preferred label(s), and click outside of the
 dropdown.
 
-![Apply Labels from the main PRs page]({{ page.root }}/fig/apply-labels-prs-page.png)
+![Apply Labels from the main PRs page]({{ page.root }}/fig/apply-labels-prs-page.png){:width="75%"}
 
 To apply within a single PR, click on the PR to open it. Then you
 will see the "Labels" option on the right-hand side.
@@ -52,7 +52,7 @@ will see the "Labels" option on the right-hand side.
 Click on "Labels". A dropdown will appear in which you can select or deselect
 your preferred label(s).
 
-![Label dropdown within a single issue]({{ page.root }}/fig/label-dropdown-in-pr.png)
+![Label dropdown within a single issue]({{ page.root }}/fig/label-dropdown-in-pr.png){:width="40%"}
 
 > ## Stick the Label
 >
@@ -89,7 +89,7 @@ directory.
 
 In the `.github` repository, we will add a new file named `PULL_REQUEST_TEMPLATE.md`.
 
-![Add a new file to the .github directory]({{ page.root }}/fig/github-hidden-dir-add-file.png)
+![Add a new file to the .github directory]({{ page.root }}/fig/github-hidden-dir-add-file.png){:width="75%"}
 
 You can now put whatever content you desire in the template. Some examples are:
 
@@ -115,7 +115,7 @@ branch.
 Now when a new PR is opened, the "Write" section will autofill with our
 template.
 
-![New PR with template]({{ page.root }}/fig/new-pr-with-template.png)
+![New PR with template]({{ page.root }}/fig/new-pr-with-template.png){:width="75%"}
 
 
 {% include links.md %}

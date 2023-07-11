@@ -20,7 +20,7 @@ main project repository. Pull requests are sent through git systems, like
 GitLab, GitHub, and BitBucket, to notify the rest of your team that a branch
 or fork is ready to be reviewed."
 
-![Image from Undraw.co for version control visualization]({{ page.root }}/fig/vcs-image.png)
+![Image from Undraw.co for version control visualization]({{ page.root }}/fig/vcs-image.png){:width="50%"}
 
 In other words, PRs are a mechanism for introducing and merging changes
 into a code base in a manner that enables discussion and collaboration.
@@ -29,7 +29,7 @@ In this lesson, students will learn about better practices for GitHub PRs.
 
 ## How Pull Requests Fit in the Development Process
 
-![From Freira et al.: Visualization of the GitHub development workflow with PRs]({{ page.root }}/fig/gh-pr-workflow.png)
+![From Freira et al.: Visualization of the GitHub development workflow with PRs]({{ page.root }}/fig/gh-pr-workflow.png){:width="60%"}
 
 The development workflow can have several different formats; however, a simple
 one is this:
@@ -55,7 +55,7 @@ integrated and stand-alone.
 GitHub integrates branching and merging into their version control system. Every project
 on GitHub can use the integrated pull requests feature.
 
-![INTERSECT training repository navigation bar]({{ page.root }}/fig/intersect-nav.png)
+![INTERSECT training repository navigation bar]({{ page.root }}/fig/intersect-nav.png){:width="75%"}
 
 To access a repository's PRs, simply navigate to the repository root
 page and click on "Pull requests" in the navigation bar. This will take you to the
