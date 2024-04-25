@@ -1,7 +1,3 @@
----
-layout: reference
----
-
 ## References 
 
 - Freira, M., Caetano, J., Oliveira, J., & Marques-Neto, H. (2018). _Analyzing The Impact Of Feedback In GitHub On The Software Developer’s Mood_. In 2018 International Conference on Software Engineering & Knowledge Engineering.
@@ -10,5 +6,3 @@ layout: reference
 - Martin, R. C. (2003). Agile software development: principles, patterns, and practices. Prentice Hall PTR.
 - Morina, F. (2022, December 1). _Benefits of Using Pull Requests for Collaboration and Code Review._ NVIDIA Technical Blog. https://developer.nvidia.com/blog/benefits-of-using-pull-requests-for-collaboration-and-code-review/
 - Urna, H. (2020, May 19). _Pull Request Workflow with Git_. Medium. https://medium.com/@urna.hybesis/pull-request-workflow-with-git-6-steps-guide-3858e30b5fa4
-
-{% include links.md %}

@@ -2,15 +2,20 @@
 title: "Introduction"
 teaching: 5
 exercises: 5
-questions:
+---
+
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- "Become familiar with the purpose of PRs."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
 - "What are Pull Requests (PRs)?"
 - "How do PRs help with software development?"
-objectives:
-- "Become familiar with the purpose of PRs."
-keypoints:
-- "Pull Requests are a way to control the introduction of new content into a shared repository."
-- "Pull Requests enable better collaboration for multiple developers."
----
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## What are Pull Requests?
 
@@ -20,7 +25,7 @@ main project repository. Pull requests are sent through git systems, like
 GitLab, GitHub, and BitBucket, to notify the rest of your team that a branch
 or fork is ready to be reviewed."
 
-![Image from Undraw.co for version control visualization]({{ page.root }}/fig/vcs-image.png){:width="50%"}
+![](fig/vcs-image.png){alt='Image from Undraw.co for version control visualization'}
 
 In other words, PRs are a mechanism for introducing and merging changes
 into a code base in a manner that enables discussion and collaboration.
@@ -29,7 +34,7 @@ In this lesson, students will learn about better practices for GitHub PRs.
 
 ## How Pull Requests Fit in the Development Process
 
-![From Freira et al.: Visualization of the GitHub development workflow with PRs]({{ page.root }}/fig/gh-pr-workflow.png){:width="60%"}
+![](fig/gh-pr-workflow.png){alt='From Freira et al.: Visualization of the GitHub development workflow with PRs'}
 
 The development workflow can have several different formats; however, a simple
 one is this:
@@ -55,7 +60,7 @@ integrated and stand-alone.
 GitHub integrates branching and merging into their version control system. Every project
 on GitHub can use the integrated pull requests feature.
 
-![INTERSECT training repository navigation bar]({{ page.root }}/fig/intersect-nav.png){:width="75%"}
+![](fig/intersect-nav.png){alt='INTERSECT training repository navigation bar'}
 
 To access a repository's PRs, simply navigate to the repository root
 page and click on "Pull requests" in the navigation bar. This will take you to the
@@ -63,16 +68,21 @@ page of all "Open" PRs.
 
 Click on a PR to open it and see its details, plus any discussion.
 
+:::::::::::::::::::::::::::::::::::::::  challenge
 
-> ## Browsing Open PRs
->
-> Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the pull requests page.
-> 
-> * How many PRs are currently open?
-> * How many have been closed?
-> * Who is the author of the top-most PR?
->
-{:.challenge}
+## Browsing Open PRs
 
-{% include links.md %}
+Navigate to [https://github.com/spack/spack](https://github.com/spack/spack) and find the pull requests page.
+ 
+* How many PRs are currently open?
+* How many have been closed?
+* Who is the author of the top-most PR?
 
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- "Pull Requests are a way to control the introduction of new content into a shared repository."
+- "Pull Requests enable better collaboration for multiple developers."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::

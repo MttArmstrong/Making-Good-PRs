@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this lesson, please cite it as below."
+authors:
+- family-names: "Mundt"
+  given-names: "Miranda"
+  orcid: "https://orcid.org/0000-0002-5283-2138"
+title: "INTERSECT: Making Good Pull Requests"
+url: "https://intersect-training.org/Making-Good-PRs/"
+license-url: "https://github.com/INTERSECT-training/Making-Good-PRs/blob/main/LICENSE.md"
+version: 0.2.0
+date-released: 2023-07-07
