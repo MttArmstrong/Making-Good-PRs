@@ -46,8 +46,8 @@ and to meet some of our community members.
 ## Where to Contribute
 
 1.  If you wish to change this lesson,
-    please work in <https://github.com/INTERECT-training/Issue-Tracking>,
-    which can be viewed at <https://INTERSECT-training.github.io/Issue-Tracking>.
+    please work in <https://github.com/INTERECT-training/Making-Good-PRs>,
+    which can be viewed at <https://INTERSECT-training.github.io/Making-Good-PRs>.
 
 2.  If you wish to change the example lesson,
     please work in <https://github.com/INTERSECT-training/intersect-module-template>,
