@@ -1,7 +1,7 @@
 ---
-layout: page
 title: "Contributor Code of Conduct"
 ---
+
 As contributors and maintainers of this project,
 we pledge to follow the [INTERSECT Code of Conduct][coc].
 

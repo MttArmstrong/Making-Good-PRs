@@ -2,16 +2,19 @@
 title: "'Good' Pull Requests"
 teaching: 5
 exercises: 0
-questions:
+---
+::::::::::::::::::::::::::::::::::::::: objectives
+
+- "Become familiar with what makes a 'good' PR."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: questions
+
 - "What does it mean to be a 'good' PR?"
 - "What should you do to make a 'good' PR?"
-objectives:
-- "Become familiar with what makes a 'good' PR."
-keypoints:
-- "A pull request should contain _ONE_ cohesive change."
-- "A pull request should, ideally, be quickly reviewable."
-- "A pull request description should give an overview of what, how, and why something changed."
----
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## What makes a 'Good' Pull request?
 
@@ -33,10 +36,15 @@ PR should all be related and, ideally, doing _one_ clear thing.
 This will make it easier to review and to ensure that changes don't introduce
 new, seemingly "unrelated" bugs.
 
-> ## Do one thing, and one thing only
-> If your PR has many unrelated changes together, separate it into multiple
-> different PRs.
-{:.callout}
+
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Do one thing, and one thing only
+
+If your PR has many unrelated changes together, separate it into multiple
+different PRs.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Reasonable Size
 
@@ -48,9 +56,13 @@ Keep your PRs a reasonable size! Some changes are, in fact, just big; however,
 if you can, split big changes into several smaller PRs to increase the
 reviewability and make discussions more productive.
 
-> ## Break it down
-> If your PR is very large, split it into smaller PRs.
-{:.callout}
+:::::::::::::::::::::::::::::::::::::::::  callout
+
+## Break it down
+
+If your PR is very large, split it into smaller PRs.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Be Descriptive
 
@@ -65,10 +77,19 @@ Putting the answer to these questions in the description section of the PR
 will make it clear the motivation and give a higher level overview for reviewers
 so they know more about the suggested changes.
 
-> ## What, How, Why
-> Preemptively answer common questions in the description of your PR to
-> streamline the review process.
-{:.callout}
+:::::::::::::::::::::::::::::::::::::::::  callout
 
-{% include links.md %}
+## What, How, Why
 
+Preemptively answer common questions in the description of your PR to
+streamline the review process.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
+
+:::::::::::::::::::::::::::::::::::::::: keypoints
+
+- "A pull request should contain _ONE_ cohesive change."
+- "A pull request should, ideally, be quickly reviewable."
+- "A pull request description should give an overview of what, how, and why something changed."
+
+::::::::::::::::::::::::::::::::::::::::::::::::::
